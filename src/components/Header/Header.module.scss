@@ -1,0 +1,13 @@
+.header{
+    height: 100vh;
+    padding-top: 20px;
+}
+.body{
+    &__title{
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

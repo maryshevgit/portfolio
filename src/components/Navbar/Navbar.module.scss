@@ -1,0 +1,30 @@
+.navbar{
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    backdrop-filter: blur(100px);
+    top: 30%;
+    left: 2%;
+    z-index: 100;
+    a{
+        margin-bottom: 10px;
+        transition: all 0.4s ease;
+        border-radius: 50%;
+        &:hover{
+            background-color: #050321;
+        }
+        .img{
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            border: 1px solid transparent;
+            border-radius: 50%;
+        }
+    }
+}
+.active{
+    transition: all 1s ease;
+    background-color: #050321;
+}
