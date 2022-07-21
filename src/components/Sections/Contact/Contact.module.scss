@@ -1,0 +1,33 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .contact_title{
+        text-align: center;
+    }
+    .contact_body{
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+        gap: 50px;
+        text-align: center;
+        .contact_item{
+            width: 300px;
+            background-color: #2b2b68;
+            border-radius: 20px;
+            padding: 50px;
+            img{
+                height: 50px;
+                margin-bottom: 10px;
+            }
+            .title{
+                font-size: 30px;
+                font-style: italic;
+                margin-bottom: 10px;
+            }
+            .info{
+                color: #d4c8e4;
+            }
+        }
+    }
+}

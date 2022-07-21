@@ -7,7 +7,7 @@ const Header = () => {
         <div className={styles.body}>
             <div className={styles.body__title}>
                 Привет, меня зовут Андрей Марышев
-                <div>Я начинающий веб-разработчик</div>
+                <div>Я начинающий frontend-разработчик</div>
             </div>
         </div>
     </div>
