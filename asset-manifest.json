@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.dddfef99.css",
+    "main.js": "/portfolio/static/js/main.e5e7a6bc.js",
+    "static/media/game.PNG": "/portfolio/static/media/game.7c3df6cd98af0b3dc0a8.PNG",
+    "static/media/Food-store.PNG": "/portfolio/static/media/Food-store.341e848513b9f1b0632f.PNG",
+    "static/media/shop.PNG": "/portfolio/static/media/shop.d7ac4b2e715b1b2a6d3f.PNG",
+    "static/media/blog.PNG": "/portfolio/static/media/blog.1d195859c6b8a8453050.PNG",
+    "static/media/icons8-telegram-app.svg": "/portfolio/static/media/icons8-telegram-app.39173e90c5023260def7a9012f48edf2.svg",
+    "static/media/216648_i_icon.svg": "/portfolio/static/media/216648_i_icon.a95a0992b7d9abeba908265513393cec.svg",
+    "index.html": "/portfolio/index.html",
+    "main.dddfef99.css.map": "/portfolio/static/css/main.dddfef99.css.map",
+    "main.e5e7a6bc.js.map": "/portfolio/static/js/main.e5e7a6bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dddfef99.css",
+    "static/js/main.e5e7a6bc.js"
+  ]
+}
