@@ -4,7 +4,11 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: 'Courier New', Courier, monospace;
 }
+a { 
+    color: inherit; 
+} 
 
 body{
     background-color: #050321;
@@ -49,14 +53,14 @@ section{
     padding: 10px;
     position: relative;
     z-index: 1;
-    font-size: 22px;
+    font-size: 23px;
     .about{
         text-align: center;
     }
     .about_title{
         text-align: center;
-        margin: 40px 0;
-        font-size: 30px;
+        margin: 30px 0;
+        font-size: 40px;
         color: #bcd6ee;
     }
     .about_skills{
@@ -70,7 +74,7 @@ section{
 .portfolio{
     margin-left: 80px;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: #bcd6ee;
     .portfolio_cnt{
         display: flex;
@@ -84,7 +88,7 @@ section{
             cursor: pointer;
             padding: 10px;
             border-radius: 20px;
-            margin: 5px;
+            margin: 8px;
             background-color: #4f2863;
             transition: all 0.5s ease;
             opacity: 0.5;
@@ -94,7 +98,7 @@ section{
             }
             img{
                 width: 600px;
-                height: 285px;
+                height: 270px;
             }
         }
 
@@ -133,6 +137,11 @@ section{
         }
         .active{
             left: 0;
+        }
+        .activeInfo{
+            & *{
+                fill: white;
+            }
         }
     }
 

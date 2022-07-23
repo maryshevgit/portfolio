@@ -4,6 +4,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    .github{
+        position: absolute;
+        right: 0;
+        top: 40px;
+        cursor: pointer;
+        animation: translate infinite 3s reverse ease-in-out;
+        svg{
+            width: 70px;
+            height: 70px;
+        }
+        &:hover{
+            svg{
+                fill: rgb(168, 214, 255);
+
+            }
+        }
+    }
 }
 .body{
     
@@ -13,5 +31,17 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@keyframes translate {
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(-30%);
+    }
+    100%{
+        transform: translateY(0%);
     }
 }

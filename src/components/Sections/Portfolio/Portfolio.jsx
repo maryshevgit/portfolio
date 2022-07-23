@@ -14,13 +14,13 @@ const Portfolio = () => {
 
   return (
     <section id='portfolio' className='portfolio'>
-      Мои проекты
+      Мои pet-проекты
       <div className='portfolio_cnt'>
         <div className='portfolio_body'>
           <a href='https://maryshevgit.github.io/food-store/' rel="noreferrer" target="_blank" className='portfolio_item'>
             <img src={foodStore} alt='food-store' />
           </a>
-          <div className='portfolio_info' onClick={() => setActiveFood(!activeFood)}>
+          <div className={classNames('portfolio_info', {activeInfo: activeFood})} onClick={() => setActiveFood(!activeFood)}>
             <Info />
           </div>
           <div className={classNames('portfolio_info_text', {active: activeFood})}>
@@ -31,7 +31,7 @@ const Portfolio = () => {
           <a href='https://maryshevgit.github.io/blog/' rel="noreferrer" target="_blank" className='portfolio_item'>
             <img src={blog} alt='blog' />
           </a>
-          <div className='portfolio_info' onClick={() => setActiveBlog(!activeBlog)}>
+          <div className={classNames('portfolio_info', {activeInfo: activeBlog})} onClick={() => setActiveBlog(!activeBlog)}>
             <Info />
           </div>
           <div className={classNames('portfolio_info_text', {active: activeBlog})}>
@@ -42,7 +42,7 @@ const Portfolio = () => {
           <a href='https://maryshevgit.github.io/game/' rel="noreferrer" target="_blank" className='portfolio_item'>
             <img src={game} alt='game' />
           </a>
-          <div className='portfolio_info' onClick={() => setActiveGame(!activeGame)}>
+          <div className={classNames('portfolio_info', {activeInfo: activeGame})} onClick={() => setActiveGame(!activeGame)}>
             <Info />
           </div>
           <div className={classNames('portfolio_info_text', {active: activeGame})}>
@@ -53,7 +53,7 @@ const Portfolio = () => {
           <a href='https://maryshevgit.github.io/shop/' rel="noreferrer" target="_blank" className='portfolio_item'>
             <img src={shop} alt='shop' />
           </a>
-          <div className='portfolio_info' onClick={() => setActiveShop(!activeShop)}>
+          <div className={classNames('portfolio_info', {activeInfo: activeShop})} onClick={() => setActiveShop(!activeShop)}>
             <Info />
           </div>
           <div className={classNames('portfolio_info_text', {active: activeShop})}>
