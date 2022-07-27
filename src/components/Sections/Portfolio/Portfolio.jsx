@@ -14,7 +14,7 @@ const Portfolio = () => {
 
   return (
     <section id='portfolio' className='portfolio'>
-      Мои pet-проекты
+      Мои проекты
       <div className='portfolio_cnt'>
         <div className='portfolio_body'>
           <a href='https://maryshevgit.github.io/food-store/' rel="noreferrer" target="_blank" className='portfolio_item'>
